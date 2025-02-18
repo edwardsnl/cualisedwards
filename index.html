@@ -1,3 +1,4 @@
+<!-- 
 <html>
   <head>
     <title>Repository for Class</title>
@@ -16,6 +17,45 @@
             font-weight: bold;
             text-align: center;
             padding: 30px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+  </body>
+</html> -->
+
+<html>
+  <head>
+    <title>Repository for Class</title>
+    <link href="https://fonts.googleapis.com/css2?family=American+Typewriter&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'American Typewriter', 'Courier', monospace;
+            background-color: #F8C8DC;
+        }
+        h1 {
+            font-size: 100px; /* Adjust to make it really big */
+            font-weight: bold;
+            text-align: center;
+            padding: 30px;
+            animation: blink 1s step-start infinite; /* Apply the blinking effect */
+        }
+        @keyframes blink {
+            0% {
+                opacity: 1; /* Visible */
+            }
+            50% {
+                opacity: 0; /* Hidden */
+            }
+            100% {
+                opacity: 1; /* Visible */
+            }
         }
     </style>
   </head>
